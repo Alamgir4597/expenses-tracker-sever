@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "expenses tracker app",
+  "main": "server.js",
+  "scripts": {
+    "start": " node src/server.js",
+    "watch": " nodemon src/server.js"
+  },
+  "author": "Alamgir Hossain",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.2",
+    "mongoose-paginate-v2": "^1.7.1",
+    "nodemon": "^2.0.20"
+  }
+}
