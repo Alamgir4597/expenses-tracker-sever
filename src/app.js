@@ -10,7 +10,9 @@ const userRouter = require('./routes/users/userRoute');
 const app=express();
 
 
-
+app.get('/',(req,res)=>{
+    console.log("This is Home Route")
+})
 
 dbConnect();
 
